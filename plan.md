@@ -11,23 +11,24 @@ modul css
 components needed:
 
 TodoForm
-TodoItem
-TodoFilter
 TodoSorter
+TodoFilter
 TodoList
+TodoItem
 
-Task: {
+-[Task: {
 id <UUID>
-created <Timestamp>
-description <String>
-Status <Boolean>
-}
+createdAt <Timestamp>
+title <String>
+complete <Boolean>
+} ]--- ok
 
 Actions
 
-    Add task
-    View tasks
-    Delete task
+    Add task -- ok
+    View tasks - ok,
+    Tooglecompleted -ok
+    Delete task --ok
 
 Filters
 
